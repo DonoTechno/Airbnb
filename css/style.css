@@ -1,0 +1,496 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  box-sizing: padding-box;
+}
+header {
+  background-image: url("../gallery/room.jpg");
+  background-position: 0px -180px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.navbar {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 17px 20px;
+}
+.navbar .logo-air {
+  padding: 0;
+}
+.navbar .logo-air img {
+  width: auto;
+}
+.navbar .navbar-nav li .menu-basic {
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+}
+.navbar .navbar-nav li a {
+  color: white;
+}
+.titre1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.titre1 h1 {
+  font-size: 58px;
+  color: white;
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 100px;
+  font-weight: bolder;
+}
+.titre1 p {
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+}
+.titre1 .btn {
+  font-weight: 900;
+  background-color: white;
+  border-radius: none;
+  padding: 15px;
+  width: 250px;
+}
+.titre1 .btn:hover {
+  background-color: white;
+}
+.btnrevenus {
+  background-color: #009AAB;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  padding: 15px;
+}
+.btnrevenus:hover {
+  background-color: #2BABD6;
+}
+.carree {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.carree .formulaire {
+  background: rgba(0, 0, 0, 0.65);
+  color: black;
+  font-size: 1.59rem;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 19px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Slack-Lato, sans-serif;
+  line-height: 1.6rem;
+  padding: 50px;
+}
+.carree .formulaire #formulaireheader {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  width: 80%;
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+}
+.carree .formulaire #formulaireheader a {
+  color: white;
+}
+.first {
+  background-color: #EDEFED;
+  padding-top: 50px;
+}
+.first .titre h2 {
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+.first .titre p {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 1.43;
+  color: #484848;
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.col1 {
+  background-image: url(../gallery/travelers.jpg);
+  height: 53vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.col2 {
+  height: 53vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.col2 #care {
+  font-size: 26px;
+  line-height: 1.1;
+  color: #484848;
+  margin-bottom: 24px;
+}
+.col2 #care #care2 {
+  font-size: 16px;
+  margin-bottom: 24px;
+  color: #484848;
+}
+.col2 #care #care2 .button {
+  border: 2px solid #009aab;
+}
+.col2 #care #care2 .button .bts-host {
+  border: 2px solid #009aab;
+  border-color: #009aab;
+  border-bottom-color: #006671;
+  background-color: #009aab;
+  color: #fff;
+}
+.colonne2 {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.colonne2 h2 {
+  font-weight: bold;
+  color: white;
+}
+.colonne2 .col21 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../gallery/lille.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.colonne2 .col22 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../gallery/bruxelles.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.colonne2 .col23 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../gallery/londres.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.encadrer {
+  margin-bottom: 36px;
+  border: 1px solid #aaa;
+  background-color: white;
+}
+.encadrer a {
+  color: #484848;
+  font-size: 16px;
+  font-weight: bold;
+}
+.colonne3 {
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+.colonne3 h2 {
+  font-weight: bold;
+  color: white;
+}
+.colonne3 .col31 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../gallery/lisbonne.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.colonne3 .col33 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../gallery/paris.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.colonne4 {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.colonne4 h2 {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.colonne4 .col41 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../gallery/amsterdam.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.colonne4 .col42 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../gallery/nyc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.colonne4 .col43 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../gallery/venise.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+.colonne5 {
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+.colonne5 h2 {
+  font-weight: bold;
+  color: white;
+}
+.colonne5 .col51 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../gallery/monkey.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.colonne5 .col52 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../gallery/rome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.colonne6 {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.colonne6 h2 {
+  font-weight: bold;
+  color: white;
+}
+.colonne6 .col61 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../gallery/berlin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.colonne6 .col62 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../gallery/bordeaux.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.colonne6 .col63 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../gallery/biarritz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+#carousel-example-generic,
+.carousel-inner,
+.item {
+  height: 89vh;
+  /* TAILLE SLIDER */
+  margin-bottom: 60px;
+}
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+.caption-carousel {
+  height: 100%;
+  /* TAILLE SLIDER */
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 130px;
+}
+.caption-carousel h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.colonne7 {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.colonne7 h2 {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.colonne7 p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.colonne7 .col71 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url(../gallery/bike.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #00A699;
+  background-position: center;
+  height: 70vh;
+  flex-direction: column;
+}
+.colonne7 .col71:hover {
+  background-color: #008D82;
+}
+.colonne7 .col72 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url(../gallery/oldpeople.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  flex-direction: column;
+}
+.colonne7 .col72:hover {
+  opacity: 0.9;
+}
+.colonne7 .col72:hover .underline {
+  text-decoration: underline;
+}
+.colonne7 .col73 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url(../gallery/workers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  flex-direction: column;
+}
+.colonne7 .col73:hover {
+  opacity: 0.9;
+}
+.colonne7 .col73:hover .underline {
+  text-decoration: underline;
+}
+.colonne7 .col74 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url(../gallery/blackgirl.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  flex-direction: column;
+}
+.colonne7 .col74:hover {
+  opacity: 0.9;
+}
+.colonne7 .col74:hover .underline {
+  text-decoration: underline;
+}
+footer {
+  background-color: #2b2d2e;
+}
+footer .colonne8 {
+  padding-top: 40px;
+}
+footer .colonne8 li {
+  list-style: none;
+  color: white;
+}
+footer .colonne8 li:hover {
+  color: #B3BBBB;
+}
+footer .colonne8 select {
+  width: 230px;
+  height: 40px;
+  background-color: #484848;
+  color: white;
+  margin-bottom: 20px;
+}
+.text-center h2 {
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+}
+.icon {
+  color: white;
+  border: 2px solid #BBBBBB;
+  border-radius: 10px;
+}
+.icon .fa {
+  height: auto;
+  height: 32px;
+  width: 32px;
+}
+.icon:hover {
+  color: #BBBBBB;
+}
+.text {
+  color: #5F706C;
+  padding: 15px;
+}
+@media screen and (max-width: 600px) {
+  .carree {
+    margin: 0;
+  }
+  .carree #formulaireheader {
+    font-size: 20px;
+  }
+  .navbar {
+    background-color: #FF5C61;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .r-padding-xs {
+    padding: 0 !important;
+  }
+  .colonne8 {
+    display: flex;
+    flex-direction: column;
+  }
+}
